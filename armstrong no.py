@@ -12,10 +12,16 @@ sum = 0
 c = s
 while (s > 0):
     digit = s % 10
+    #print(digit)
     s = s // 10
+    #print(s)
     sum += digit ** b
 
 if sum == c:
     print("it is a armstrong number ")
 else:
     print("not an armstrong number")
+
+
+
+
