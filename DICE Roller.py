@@ -45,9 +45,12 @@ for die in range(num):
     dice.append(random.randint(1,6))
 
 # The get() method returns the value of the item with the specified key.
-for i in dice:
-    a,b,c,d,e = dice_arts[i]
-    print(f"{a}\n{b}\n{c}\n{d}\n{e}")
+for i in range(5):
+    for j in dice:
+        print(dice_arts.get(j)[i],end=" ")
+    print()
+    #a,b,c,d,e = dice_arts[i]
+    #print(f"{a}\n{b}\n{c}\n{d}\n{e}")
 
 
 
