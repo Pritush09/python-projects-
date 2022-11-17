@@ -44,3 +44,14 @@ num = int(input(" No. of dice : "))
 for die in range(num):
     dice.append(random.randint(1,6))
 
+# The get() method returns the value of the item with the specified key.
+for i in dice:
+    a,b,c,d,e = dice_arts[i]
+    print(f"{a}\n{b}\n{c}\n{d}\n{e}")
+
+
+
+
+for die in dice:
+    total = total + die
+print(total)
