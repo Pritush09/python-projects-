@@ -7,5 +7,5 @@ def countdown(time_sec):
         time.sleep(1)
         time_sec -= 1
     print("TIME ENDED")
-countdown(5)
+countdown(500)
 
