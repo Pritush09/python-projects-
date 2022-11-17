@@ -15,4 +15,13 @@ print(key)
 # ENCRYPT
 
 plain_text = input(" Enter a message : ")
-cipher 
+# encrpted text
+cipher_text = ""
+
+# we will iterate though all the element in the input string
+for letter in plain_text:
+    index = plain_text.index(letter) # index of the character in the input string
+    cipher_text += key[index]  # taking that index and replacing with the key one and adding to the encrypted string
+
+
+print(cipher_text)
